@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-logistic-entropy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Logistic distribution entropy.",
   "license": "Apache-2.0",
   "author": {
