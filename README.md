@@ -67,7 +67,7 @@ h\left( X \right) = \ln( s ) + 2s
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@v0.2.0-deno/mod.js';
 ```
 
 #### entropy( mu, s )
@@ -127,7 +127,7 @@ y = entropy( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@v0.2.0-deno/mod.js';
 
 var mu;
 var s;
