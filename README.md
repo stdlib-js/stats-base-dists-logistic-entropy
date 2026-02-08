@@ -69,6 +69,11 @@ h\left( X \right) = \ln( s ) + 2s
 To use in Observable,
 
 ```javascript
+entropy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-logistic-entropy/tags). For example,
+
+```javascript
 entropy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@v0.3.1-umd/browser.js' )
 ```
 
@@ -81,7 +86,7 @@ var entropy = require( 'path/to/vendor/umd/stats-base-dists-logistic-entropy/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -155,7 +160,7 @@ y = entropy( 0.0, -1.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-entropy@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
